@@ -1,0 +1,109 @@
+/* Estructura */
+
+.nav-treeview>li.nav-item>a.nav-link.aside_items{
+    padding: 0px 0px 0px 53px !important;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+ul.ul_submenu>li.nav-item>a.nav-link.aside_items{
+    padding: 0px 0px 0px 53px !important;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.items_ul_list{
+    font-size: 13px !important;
+}
+
+.fiducom_aside_a{
+    display: block;
+    padding: 13px 8px;
+}
+
+.fiducom_aside_title{
+    font-family: Bodoni Bd BT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgba(0, 0, 0);
+}
+
+.cuadro_cliente{
+    display: inline-block;
+    text-align: center;
+    color: #707070;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.nombre_cliente{
+    display:inline-block;
+    color: #707070;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: none !important;
+}
+
+.nombre_cliente:hover{
+    color: #555555;
+    transition: 100ms;
+}
+
+.contacto_aside{
+    position: relative;
+    bottom: 10px;
+    max-width: 235px;
+    padding: 10px;
+}
+
+.contacto_aside_off{
+    display: none !important;
+}
+
+.contacto_aside_on{
+    display: block;
+}
+
+.contacto_aside_p1{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contacto_aside_p2{
+    color: #707070;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.boton_aside_contacto{
+    background-color: #E53C21;
+    border: 0px;
+    color: ghostwhite;
+    padding: 6px 20px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.boton_aside_contacto:hover{
+    transition:200ms;
+    background-color: #525252 !important;
+}
+
+.a_contactanos{
+    text-decoration: none;
+    color: white;
+}
+
+.a_contactanos:hover{
+    transition: 400ms;
+    color: white;
+}
+
+/* Fin Estructura */

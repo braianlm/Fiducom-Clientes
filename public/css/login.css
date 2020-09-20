@@ -1,0 +1,137 @@
+/* Márgenes */
+.mb-10{
+    margin-bottom: 10px !important;
+}
+
+.mb-30{
+    margin-bottom: 30px !important;
+}
+
+.mt-10{
+    margin-top: 10px !important;
+}
+
+.mt-30{
+    margin-top: 30px !important;
+}
+
+/* Fin Márgenes ----------------- */
+
+/* Estructura */
+
+.fondo_imagen_login{
+    height:100vh; 
+    background: url("/img/destacado-del-mes.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.fondo_blanco_login{
+    height:100vh; 
+    display:flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.login_box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fiducom_title{
+    font-family: Bodoni Bd BT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(112,112,112,1);
+    text-align: center;
+}
+
+.bienvenido_title{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+    text-align: center;
+}
+
+.input_border{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgb(187 181 181) !important;
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+
+.input_border:focus{
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.input_border:hover{
+    box-shadow: none;
+}
+
+.placeholder_login{
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1)
+}
+
+.div-submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-login{
+    color:white;
+    background-color: rgba(58,58,58,1) !important;
+    border-radius: 30px;
+    padding: 10px 50px;
+}
+
+.btn-login:hover{
+    color: white;
+}
+
+.forgot_pw{
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(161,161,161,1);
+    text-decoration:none !important;
+}
+
+/* Fin Estructura --------------- */
+
+/* Media Queries */
+
+@media screen and (max-width: 991px) {
+    .fondo_imagen_login{
+        display: none;
+    }
+
+    .fondo_blanco_login{
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 ); 
+        background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 1%, rgba(254,254,254,1) 100%); 
+    }
+    
+    .input-group>input{
+        background-color: transparent;
+    }
+}
+
+/* Fin Media Queries ----------- */

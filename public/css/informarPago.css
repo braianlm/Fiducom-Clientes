@@ -1,0 +1,172 @@
+.caja_formulario{
+    padding:0px 5px 0px 40px;
+
+}
+
+.form_pago{
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1) !important;
+    border-radius: 10px !important;
+    padding: 0 15px !important;
+}
+
+.input_border_informar_pago{
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom: 3px solid rgb(187 181 181) !important;
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+
+.placeholder_form_pago{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: rgba(112,112,112,1);
+    margin-top: 3px;
+    padding: 0px 15px 15px 15px;
+}
+
+/* Botón Comprobante */
+
+
+#file_name{
+    background-color: white;
+    line-height: 50px;
+    border-bottom: 3px solid rgb(187 181 181) !important;
+    cursor: inherit;
+    font-weight: 100;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .custom + label {
+    font-size: 14px;
+    color: rgba(112,112,112,1);
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .custom + label {
+    border: 1px;
+/*     background-color: #f1e5e6; */
+    padding: 0;
+    position: relative;
+    height: 39px;
+/*     width: 500px; */
+    display: block;
+  }
+  
+  
+  .custom + label span {
+    width: 65%;
+    height: 39px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+    padding-left: 10px;
+  }
+  
+  .custom + label strong {
+    height: 39px;
+    line-height: 40px;
+    color:white;
+    background-color: #707070 !important;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    text-align: center;
+    border-radius: 50px;
+  }
+
+  label>strong:hover{
+    transition:200ms;
+    background-color: #525252 !important;
+  }
+
+  .btn-informar{
+    color: white !important;
+    background-color: #707070 !important;
+    border-radius: 50px !important;
+    padding: 4px 35px !important;
+    margin-top: 20px;
+    border: none;
+  }
+ 
+
+  .btn-informar:hover{
+    transition:200ms;
+    background-color: #525252 !important;
+  }
+
+  .btn-cancelar{
+    color: #707070 !important;
+    border: 1px solid #707070 !important;
+    background-color: white !important;
+    border-radius: 50px !important;
+    padding: 4px 35px !important;
+    margin-top: 20px;
+    margin-left: 20px;
+/*     cursor:inherit !important; */
+  }
+
+
+  /* Card */
+
+  .card-info-pago{
+    background-color: #e4e5ef !important;
+    padding: 15px;
+    border-radius: 10px !important;
+  }
+
+  .tenga_presente{
+      color: #707070;
+  }
+
+  .ejemplo, .aviso_pago{
+      color: #a5a1a1;
+      margin: 0;
+      font-size: 12px;
+  }
+
+  #label_comprobante{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+/* Fin Botón comprobante */
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  
+  .caja_formulario{
+      padding: 0px;
+  }
+
+  .input_1_resp{
+    margin-right: 0px !important;
+  }
+  
+  .input_2_resp{
+    margin-right: 0px !important;
+  }
+
+  .input_3_resp{
+    margin-right: 0px !important;
+  }
+
+}
+
+/* Fin Media Queries */
